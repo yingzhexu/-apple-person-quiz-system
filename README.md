@@ -1,10 +1,15 @@
 # 苹果人答题系统 / Apple Person Quiz System
 
+- [中文说明](#中文说明)
+- [English README](#english-readme)
+
+---
+
+# 中文说明
+
 一个 iOS 风格的网页答题系统，围绕“户晨风 / 户子 / 苹果体系”相关互联网梗与判断模型制作。
 
 这个项目不是单纯背答案，而是把“总成本、效率、标准化、现金流、工具思维、城市选择、社交过滤、现实筛选”等概念做成选择题、成就系统和最终测试，适合用来朋友互测、梗文化教学、直播互动、前端 UI 练习。
-
-This is an iOS-style browser quiz app inspired by the “Huchengfeng / Apple Person System” meme culture. It turns ideas such as total cost, efficiency, standardization, cash flow, tools, city choices, social filtering, and realistic screening into an interactive quiz.
 
 ## 如何下载和使用
 
@@ -69,7 +74,6 @@ Windows 用户可以直接双击 `index.html`。
 - 自动翻页，答完后进入结算页
 - 正确率成就系统，答题中会弹出阶段成就
 - 结算页展示称号、成就、正确率、最高连对、系统评级
-- 隐藏测试后门，方便开发者快速测试满分结算页
 
 ## 怎么玩？
 
@@ -110,7 +114,6 @@ Windows 用户可以直接双击 `index.html`。
 - 语音播报
 - 成就系统
 - 结算页文案
-- 隐藏测试后门弹窗
 
 ## 声音控制
 
@@ -140,28 +143,6 @@ Windows 用户可以直接双击 `index.html`。
 - `100%`：终极苹果人
 
 答题过程中，如果正确率进入新的阶段，会自动弹出一个成就。结算页也会根据最终正确率展示对应称号。
-
-## 隐藏测试后门
-
-这是给开发和演示用的隐藏功能。
-
-连续点击顶部：
-
-```text
-小应同学ying制作
-```
-
-10 次，会弹出测试后门。
-
-你可以选择：
-
-- 10 题满分
-- 20 题满分
-- 50 题满分
-- 100 题满分
-- 最终测试满分
-
-点击后会直接进入正常结算页，结算页和普通答完完全一致，方便测试满分动画、称号和成就展示。
 
 ## 部署到 GitHub Pages
 
@@ -234,6 +215,237 @@ https://你的用户名.github.io/仓库名/
 如果你基于本项目内容做任何现实决策，请结合自己的实际情况、预算、健康状况、家庭环境、职业阶段和专业意见独立判断。
 
 如果你二次修改、转载、部署或传播本项目，请保留娱乐性质说明，避免将题目内容包装成严肃测评、商业诊断或现实价值评判工具。
+
+## License
+
+MIT
+
+---
+
+# English README
+
+An iOS-style browser quiz app inspired by the internet meme culture around “Huchengfeng / Huzi / the Apple Person System.”
+
+This project is not just about memorizing answers. It turns concepts such as total cost, efficiency, standardization, cash flow, tool thinking, city choice, social filtering, and realistic screening into multiple-choice questions, achievements, sound effects, animations, and a final test mode.
+
+It is suitable for meme-culture teaching, friend challenges, livestream interaction, UI practice, and front-end learning.
+
+## How to Download and Use
+
+This is a pure static web project. It does not require a backend, package manager, build step, or dependency installation.
+
+### Option 1: Download ZIP
+
+1. Open this GitHub repository.
+2. Click the green `Code` button.
+3. Choose `Download ZIP`.
+4. Unzip the downloaded file.
+5. Open the extracted folder.
+6. Double-click `index.html`.
+7. The quiz will open in your browser.
+
+### Option 2: Clone with Git
+
+If you are familiar with Git:
+
+```bash
+git clone https://github.com/yingzhexu/-apple-person-quiz-system.git
+cd -apple-person-quiz-system
+```
+
+Then open:
+
+```bash
+open index.html
+```
+
+On Windows, you can simply double-click `index.html`.
+
+### Option 3: Deploy as a Website
+
+If you want other people to play without downloading anything, deploy it with GitHub Pages.
+
+## What Is the Huchengfeng / Apple Person System?
+
+In this project, “Huchengfeng / Huzi / Apple Person System” refers to a meme-based lifestyle framework and internet joke system.
+
+“Apple” is used as a symbol for:
+
+- standardization
+- less hassle
+- long-term stability
+- lower total cost
+- higher time efficiency
+- healthier cash flow
+
+“Android” is used as a symbol for:
+
+- only looking at short-term cheapness
+- ignoring hidden costs
+- low efficiency
+- low standards
+- repeated hassle
+
+Important: “Apple / Android” here is not strictly about phone brands. It is not telling people to blindly buy expensive things. The core idea is:
+
+> Do not only look at the sticker price. Look at long-term total cost, cash flow, time efficiency, and sustainable growth.
+
+## Features
+
+- 500 regular quiz questions
+- 50 fixed final-test questions
+- Random quiz modes: `10 / 20 / 50 / 100` questions
+- “I’m an Apple Person” entry for the final test
+- Chinese / English language switch
+- English question bank, English UI, English voice, and English achievements
+- Automatic option shuffling for every question
+- iOS-style glassmorphism interface
+- Apple Pay-style correct-answer animation
+- Separate voice and sound-effect toggles
+- Auto-next after answering
+- Achievement system based on correct-answer percentage
+- Result page with title, achievement, accuracy, best streak, and system rating
+
+## How to Play
+
+1. Open `index.html`.
+2. Choose a quiz size: `10 / 20 / 50 / 100`.
+3. Click `Start`.
+4. Pick one answer for each question.
+5. Correct answers trigger a checkmark animation and success sound.
+6. The app automatically moves to the next question.
+7. After the quiz ends, the result page shows your title and achievement.
+
+## Final Test
+
+On the home screen, click:
+
+```text
+I’m an Apple Person
+```
+
+You will enter the final-test intro:
+
+```text
+So you are an Apple Person
+Take the final test: 50 questions
+```
+
+The final test always uses the same 50 questions in a fixed order. It is designed as the challenge mode.
+
+## Language Switch
+
+Click the `EN / 中` button in the top-right corner.
+
+English mode switches:
+
+- interface text
+- regular question bank
+- final test question bank
+- voice narration
+- achievements
+- result page text
+
+## Sound Controls
+
+There are two separate buttons in the top-right corner:
+
+- `Voice`: controls speech narration
+- `Sound Effects`: controls clicks, correct/wrong feedback, and start sounds
+
+Both are enabled by default.
+
+## Achievement System
+
+Achievements are calculated by correct-answer percentage, not by raw question count.
+
+Examples:
+
+- `0% - 9%`: System Insulator
+- `10% - 19%`: Lightly Contaminated
+- `20% - 29%`: Early Infection
+- `30% - 39%`: Entry Player
+- `40% - 49%`: Stable Beginner
+- `50% - 59%`: Standard Candidate
+- `60% - 69%`: Apple Person Operator
+- `70% - 79%`: Advanced Candidate
+- `80% - 89%`: Advanced Operator
+- `90% - 99%`: Direct Disciple
+- `100%`: Ultimate Apple Person
+
+During the quiz, when your correct-answer percentage enters a new achievement tier, a single achievement toast appears. The final result page also displays the matching title and achievement.
+
+## Deploy to GitHub Pages
+
+1. Open repository `Settings`.
+2. Go to `Pages`.
+3. Set `Source` to `Deploy from a branch`.
+4. Choose branch `main`.
+5. Choose folder `/root`.
+6. Save and wait for GitHub to generate the site URL.
+
+No build command is needed because this project is fully static.
+
+After deployment, GitHub will give you a URL like:
+
+```text
+https://your-username.github.io/repository-name/
+```
+
+Share that link and anyone can play online.
+
+## File Structure
+
+```text
+.
+├── index.html                  # Page structure
+├── styles.css                  # iOS-style UI and animations
+├── app.js                      # Main logic, Chinese questions, achievements
+├── questions-en.js             # English questions 1-200 + final test 1-3
+├── questions-en-201-300.js     # English questions 201-300
+├── questions-en-301-400.js     # English questions 301-400
+├── questions-en-401-500.js     # English questions 401-500
+├── questions-en-final.js       # English final test 4-50
+├── README.md
+└── LICENSE
+```
+
+## Development
+
+You can edit:
+
+- `app.js`: Chinese question bank, quiz logic, achievements, sounds
+- `styles.css`: UI, layout, animations, glass effects
+- `questions-en*.js`: English question content
+- `index.html`: page structure and buttons
+
+Question format:
+
+```text
+id|question|option A|option B|option C|option D|correct answer
+```
+
+Example:
+
+```text
+1|Where should you go for groceries?|Wet market|Sam's Club|Random neighborhood supermarket|Roadside convenience store|B
+```
+
+## Disclaimer
+
+This is a fan-made, meme-culture, entertainment-oriented open-source web project. It is intended for front-end learning, UI design practice, friend challenges, cultural archiving, and casual interaction.
+
+This project is not an official work by Huchengfeng or any related team. It does not represent Huchengfeng’s real views, complete views, commercial authorization, or official endorsement.
+
+This project has no official relationship with Apple, Tesla, Sam's Club, McDonald's, Haidilao, Xibei, or any other brand mentioned in the questions. Brand names appear only as part of meme context, quiz context, or example wording. Their appearance does not imply participation, approval, sponsorship, or endorsement.
+
+The terms “Apple” and “Android” in this project are symbolic internet expressions. They are not objective evaluations of real phone systems, real brands, real user groups, or any individual. They should not be understood as discrimination, insult, or attack against any consumer choice.
+
+The questions, options, achievement titles, and result texts are intentionally exaggerated, playful, and meme-driven. Do not treat them as serious real-life advice for career choices, consumer decisions, city selection, health management, investment, finance, or relationships.
+
+If you make real-life decisions, consider your own budget, health, family context, career stage, environment, and professional advice.
+
+If you modify, repost, deploy, or redistribute this project, please keep the entertainment disclaimer and avoid presenting it as a serious assessment, commercial diagnosis, or real-world value judgment tool.
 
 ## License
 
